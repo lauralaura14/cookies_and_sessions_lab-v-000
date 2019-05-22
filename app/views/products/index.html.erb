@@ -2,12 +2,21 @@
     action: 'add',
     method: 'post'}) do %>
 
+<<<<<<< HEAD
     Product: <input name=product>
+=======
+    Product: <input name=item>
+>>>>>>> 5bdbc02a2fc0702e271203e19122cdecefb33676
     <input type=submit value='add to cart'>
   <% end %>
 
 <% if @cart %>
+<<<<<<< HEAD
   <% @cart.each do |product| %>
     <%= product %><br>
+=======
+  <% @cart.each do |item| %>
+    <%= item %><br>
+>>>>>>> 5bdbc02a2fc0702e271203e19122cdecefb33676
   <% end %>
 <% end %>
